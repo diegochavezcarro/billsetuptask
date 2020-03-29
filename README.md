@@ -114,5 +114,7 @@ Basado en el tutorial:
 
 https://dataflow.spring.io/docs/batch-developer-guides/batch/data-flow-composed-task/
 
-
+Recordar se usa H2 en memoria, la primera app crea una base y tabla y la segunda vuelve 
+a crearlas, igualmente el ejemplo es didactico, ver sino de configurar las dos apps
+para que utilicen dos datasources.
 
